@@ -16,6 +16,9 @@ public class Product
     [Column("price")]
     public decimal Price { get; set; }
 
+    [Column("description")] // Bu satırı ekleyin
+    public string? Description { get; set; }
+
     [Column("stock")]
     public int Stock { get; set; }
 
